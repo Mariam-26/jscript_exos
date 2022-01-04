@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: auto;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.composant {
+    flex: 1 0 100%;
+    position: relative;
+}
+
+header .composant img {
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.caption {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: rgba(0, 128, 0, 0.781);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+#nav-gauche {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#nav-droit {
+    position: absolute;
+    right: -26px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
